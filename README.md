@@ -6,6 +6,8 @@
   
   团队成绩:2019CCF-BDCI大赛  最佳创新探索奖 "基于OCR的身份证要素提取"单赛题冠军
   
+  系统方案介绍:https://discussion.datafountain.cn/questions/2260/answers/23380 (包含方案论文\答辩PPT)
+  
 # 执行方式介绍
     完整执行示例:
     CPU执行,单进程:
