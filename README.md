@@ -63,7 +63,8 @@
 # 注意
     去水印模型地址:git@github.com:Mingtzge/models_data.git
     文字识别模型地址:git@github.com:Mingtzge/ckpt_save.git
-    这两项是工程的submodel,需要克隆的时候需要加上"--recursive"参数
+    这两项是工程的submodel,需要克隆的时候需要加上"--recursive"参数 
+    去水印模型较大,采用了git-lfs,要安装这个包,不然可能会导致clone失败或者比较慢
 
 !!!注:复现的测试数据跟初赛和复赛的数据格式需要保持一致,每面身份证左上角需要有:"仅限DBCI比赛(复赛)使用"字样,
       且字体大小格式位置应该跟初赛和复赛的保持一致,否则将严重影响识别的准确性甚至代码运行出错
