@@ -61,8 +61,8 @@
     运行特殊的环境要求
 
 # 注意
-    去水印模型地址:
-    文字识别模型地址:
+    去水印模型地址:git@github.com:Mingtzge/models_data.git
+    文字识别模型地址:git@github.com:Mingtzge/ckpt_save.git
     这两项是工程的submodel,需要克隆的时候需要加上"--recursive"参数
 
 !!!注:复现的测试数据跟初赛和复赛的数据格式需要保持一致,每面身份证左上角需要有:"仅限DBCI比赛(复赛)使用"字样,
