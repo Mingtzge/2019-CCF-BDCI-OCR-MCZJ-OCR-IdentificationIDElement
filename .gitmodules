@@ -1,0 +1,6 @@
+[submodule "ckpt_save"]
+	path = ckpt_save
+	url = git@github.com:Mingtzge/ckpt_save.git
+[submodule "pytorch-CycleGAN-and-pix2pix/models_data"]
+	path = pytorch-CycleGAN-and-pix2pix/models_data
+	url = git@github.com:Mingtzge/models_data.git
