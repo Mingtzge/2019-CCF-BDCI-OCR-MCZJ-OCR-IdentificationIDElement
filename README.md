@@ -64,9 +64,6 @@
 ## data_temp
   中间数据存放目录,目录名称:实验名+日期
 
-## ckpt_save
-  文字识别模型存放目录
-
 ## CCFTestResultFixValidData_release.csv
   生成的结果文件
 
