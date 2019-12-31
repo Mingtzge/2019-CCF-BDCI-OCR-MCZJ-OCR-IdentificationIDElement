@@ -15,14 +15,15 @@
   ### 方案亮点 
   我们采用条件生成对抗网络(CGAN)处理赛题中的水印干扰,取到了比较好的效果,展示一下效果图片:
   ![去水印效果](https://github.com/Mingtzge/2019-CCF-BDCI-OCR-MCZJ-OCR-IdentificationIDElement/blob/master/show_imgs/%E5%8E%BB%E6%B0%B4%E5%8D%B0%E6%95%88%E6%9E%9C.png)
-  [仿真数据生成源码](https://github.com/Mingtzge/2019-CCF-BDCI-OCR-MCZJ-fake_data_generator)
+  
+  [生成仿真数据源码](https://github.com/Mingtzge/2019-CCF-BDCI-OCR-MCZJ-fake_data_generator),生成仿真训练数据训练去水印模型和文字识别模型
   
   [系统方案介绍](https://discussion.datafountain.cn/questions/2260/answers/23380) (包含方案论文\答辩PPT)
   
 # 执行方式介绍
     完整执行示例:
     CPU执行,单进程:
-    python main_process.py --test_experiment_name test_example --test_data_dir /home/ubuntu/test_for_final/ --gan_ids -1 --pool_num 0
+    python main_process.py --test_experiment_name test_example --test_data_dir ./test_data --gan_ids -1 --pool_num 0
     参数详解:
     --test_experiment_name:实验名,将决定中间数据结果存放目录
     --test_data_dir: 数据目录
@@ -73,7 +74,7 @@
   执行脚本
 
 ## Requirement.txt
-  运行特殊的环境要求
+  运行的环境要求
 
 # 注意
   去水印模型[地址](https://github.com/Mingtzge/models_data)
@@ -83,7 +84,7 @@
   这两项是工程的submodel,需要克隆的时候需要加上"--recursive"参数 
   去水印模型较大,采用了git-lfs,要安装这个包,不然可能会导致clone失败或者比较慢
 
-!!!注:复现的测试数据跟初赛和复赛的数据格式需要保持一致,每面身份证左上角需要有:"仅限DBCI比赛(复赛)使用"字样,
+!!!注:测试数据跟初赛和复赛的数据格式需要保持一致,每面身份证左上角需要有:"仅限DBCI比赛(复赛)使用"字样,
       且字体大小格式位置应该跟初赛和复赛的保持一致,否则将严重影响识别的准确性甚至代码运行出错
-   原因:对于身份证各个元素的识别,我们是先裁剪出来,再识别的.我们在裁剪的时候,是以"仅限DBCI比赛(复赛)使用"为参考的
+   原因:对于身份证各个元素的识别,我们是先裁剪出来,再识别的.我们在裁剪的时候,是以"限DBCI"为参考的
    ,每次裁剪前,都会用模板在图片匹配对应的位置,得到参考坐标,再相对于这个参考坐标裁剪各个元素.
