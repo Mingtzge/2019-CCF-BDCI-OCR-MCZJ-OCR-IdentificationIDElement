@@ -14,8 +14,9 @@
 模型训练详细步骤:
 注:数据集生成方式在数据集生成文件有详细说明
 
+生成仿真数据源码地址:https://github.com/Mingtzge/2019-CCF-BDCI-OCR-MCZJ-fake_data_generator
 
-复印无效: 数据生成方式见--->/fake_data_generater/chusai_fuyinwuxiao/readme
+复印无效: 数据生成方式见--->2019-CCF-BDCI-OCR-MCZJ-fake_data_generator/chusai_fuyinwuxiao/readme
 数据集1:14万
 数据集2:20万
 数据集3:30+万
@@ -36,7 +37,7 @@ python train.py --dataroot dir3 --name model_for_example_chusai --model pix2pix 
 注:此次训练为finetune, 两次的模型名--name 参数应该保持一致
 
 
-禁止复印:数据生成方式见--->/fake_data_generater/rematch_jinzhifuyin/readme
+禁止复印:数据生成方式见--->2019-CCF-BDCI-OCR-MCZJ-fake_data_generator/rematch_jinzhifuyin/readme
 数据集4:40+万
 第一轮训练:
 时长估计1~2天
