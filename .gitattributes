@@ -1,1 +1,2 @@
 recognize_process/model_save/recognize_model.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+data_correction_and_generate_csv_file/data/repitle_address_extract.json filter=lfs diff=lfs merge=lfs -text
