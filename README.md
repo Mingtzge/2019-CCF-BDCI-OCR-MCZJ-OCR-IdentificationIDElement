@@ -1,6 +1,8 @@
 
 # 整体介绍
-  [赛题介绍](https://www.datafountain.cn/competitions/346) 
+  [赛题介绍](https://www.datafountain.cn/competitions/346)
+  
+  [赛题数据](https://pan.baidu.com/s/182lB5Wfz39Lkm7T4VyKOvw) 提取码: 52gg
   
   我们的队名是:鹏脱单攻略队  后面改为"天晨破晓" 最终我们团队成绩在复赛AB榜均排在第一名,识别准确率达0.996952
  
