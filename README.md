@@ -18,7 +18,7 @@
   
   [生成仿真数据源码](https://github.com/Mingtzge/2019-CCF-BDCI-OCR-MCZJ-fake_data_generator),生成仿真训练数据训练去水印模型和文字识别模型
   
-  [系统方案介绍](https://discussion.datafountain.cn/questions/2260/answers/23380) (包含方案论文\答辩PPT)
+  [方案PPT](https://discussion.datafountain.cn/questions/2260/answers/23380) [方案论文](https://discussion.datafountain.cn/questions/2232/answers/23321)
   
 # 执行方式介绍
     完整执行示例:
