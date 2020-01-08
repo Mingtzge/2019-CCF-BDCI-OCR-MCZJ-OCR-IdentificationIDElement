@@ -80,7 +80,7 @@ def _sparse_matrix_to_list(sparse_matrix, char_map_dict_path=None):
     dense_shape = sparse_matrix.dense_shape
 
     # the last index in sparse_matrix is ctc blanck note
-    char_map_dict = json.load(open(char_map_dict_path, 'r'))
+    char_map_dict = json.load(open(char_map_dict_path, 'r',encoding='utf-8'))
     if char_map_dict is None:
         print("error")
     assert (isinstance(char_map_dict, dict) and 'char_map_dict is not a dict')
